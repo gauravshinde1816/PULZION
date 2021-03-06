@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Contact from "./components/Contact/Contact";
 import JoinUs from "./components/Join/JoinUs";
 import Login from "./components/Join/Login";
+import Footer from "./components/Footer/Footer";
 const App = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/contact" component={Contact} />
         <Route path="/register" component={JoinUs} />
         <Route path="/login" component={Login} />
+        <Footer/>
       </Router>
     </div>
   );

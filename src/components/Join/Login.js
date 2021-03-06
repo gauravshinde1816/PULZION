@@ -9,7 +9,7 @@ const Login = () => {
             <div className="col-lg-12">
               <div className="card ">
                 <div className="card-body">
-                  <h3 className="text-center">WELCOME BACK</h3>
+                  <h3 className="text-center" style={{ color: "rgb(244,205,210)" }}>WELCOME BACK</h3>
 
                   <form style={{ width: "450px" }}>
                     <div className="form-group">

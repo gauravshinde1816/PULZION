@@ -1,16 +1,16 @@
 import React from "react";
 import "./About.css";
+import child from "./child.jpg"
 const About = () => {
   return (
     <div>
       <header id="page-header">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 m-auto text-center">
-              <h1>About Us</h1>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas,
-                temporibus?
+            <div class="col-md-8 m-auto text-center">
+              <h1 class="page-title">About Us</h1>
+              <p class="page-description">
+              “Do a deed of simple kindness; though its end you may not see, it may reach like widening ripples down   a long eternity” – Joseph Norris
               </p>
             </div>
           </div>
@@ -21,32 +21,20 @@ const About = () => {
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <h1>What We Do</h1>
+              <h3>Who we are</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
-                fuga eaque. Amet, assumenda aliquid tempore dolorum error
-                eveniet doloribus sed repellat quod, dolores fuga ipsam soluta.
-                Aliquam accusantium pariatur aut sint deleniti laborum ducimus
-                voluptatem? Architecto cumque quod suscipit officiis soluta,
-                voluptate dicta blanditiis similique praesentium temporibus
-                adipisci debitis labore!
+              UpLift is a non-profit organization working to transform the lives of slum kids by providing them health care and immunizations, safe water and sanitation, nutrition, education, emergency relief and more...
               </p>
+              <h3>What we do</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
-                fuga eaque. Amet, assumenda aliquid tempore dolorum error
-                eveniet doloribus sed repellat quod, dolores fuga ipsam soluta.
-                Aliquam accusantium pariatur aut sint deleniti laborum ducimus
-                voluptatem? Architecto cumque quod suscipit officiis soluta,
-                voluptate dicta blanditiis similique praesentium temporibus
-                adipisci debitis labore!
+               Our mission is to provide hope and resources for those without life’s essentials.We are dedicated to ensure that every child has access to health care and education. We are meeting the enormous challenge through a broad range of programs and services aimed at patients, caregivers, health care professionals, policy makers and the general public. Our volunteer experts select the scientific research most worthy of funding — with great results.
               </p>
             </div>
             <div class="col-md-6">
               <img
-                style={{ marginTop: "-60px" }}
-                src="https://source.unsplash.com/random/700x700/?technology"
+                src={child}
                 alt=""
-                class="img-fluid rounded-circle d-none d-md-block about-img"
+                class="img-fluid rounded-circle align-items-center about-img d-md-block"
               />
             </div>
           </div>
@@ -58,30 +46,27 @@ const About = () => {
             <div class="col-md-4">
               <div class="card bg-danger text-white text-center">
                 <div class="card-body">
-                  <i class="fas fa-building fa-3x"></i>
-                  <h3>Sample Heading</h3>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Molestias, adipisci.
+                  
+                  <h3>Cause</h3>
+                  A quality education should not be determined by financial means nor disability. 
                 </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="card bg-dark text-white text-center">
                 <div class="card-body">
-                  <i class="fas fa-bullhorn fa-3x"></i>
-                  <h3>Sample Heading</h3>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Molestias, adipisci.
+                 
+                  <h3>Vision</h3>
+                  Our motto is to create a future without hungry children . We believe in treating each child and family in the communities where they work with value and worth. Everyone should have the opportunity to learn, grow and thrive. 
                 </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="card bg-danger text-white text-center">
                 <div class="card-body">
-                  <i class="fas fa-comments fa-3x"></i>
-                  <h3>Sample Heading</h3>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Molestias, adipisci.
+                
+                  <h3>Mission</h3>
+                  UpLift is rooted in the promise of equal educational opportunity and healthcare facilities, and nowhere is that covenant more relevant than in the lives of children who live near poverty or for students with special needs.
                 </div>
               </div>
             </div>

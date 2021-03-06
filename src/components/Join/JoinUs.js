@@ -1,4 +1,5 @@
 import React from "react";
+import './JoinUs.css'
 
 const JoinUs = () => {
   return (
@@ -6,24 +7,26 @@ const JoinUs = () => {
       <header id="page-header">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 m-auto text-center">
-              <h1>Join Us</h1>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas,
-                temporibus?
+            <div class="col-md-8 m-auto text-center">
+              <h1 class="page-title">Join Us</h1>
+              <p class="page-description">
+                Come, Experience the joy of giving.
+                <br />
+               Become a volunteer, Change a life!
+
               </p>
             </div>
           </div>
         </div>
       </header>
-      <div className="container my-5">
-        <div className="row">
-          <div className="col-md-12">
+      <div className="container my-5 ">
+        <div className="row d-flex justify-content-around ">
+          <div className="col-md-8">
             <div className="card p-4">
               <div className="card-body">
-                <h3 className="text-center">JOIN US TODAY</h3>
-                <p className="text-center text-secondary">
-                  Let's make the world better place
+                <h3 className="text-center" style={{ color: "rgb(244,205,210)" }}>JOIN US TODAY</h3>
+                <p className="text-center text-secondary0"  style={{ color: "rgb(244,205,210)" }}>
+                  Let's make this world a better place
                 </p>
                 <form>
                   <div className="form-group">
